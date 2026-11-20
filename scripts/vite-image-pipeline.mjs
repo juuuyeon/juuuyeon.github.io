@@ -4,6 +4,7 @@ import os from 'node:os';
 import crypto from 'node:crypto';
 import {spawn} from 'node:child_process';
 import {fileURLToPath} from 'node:url';
+import {shouldPublishAsset} from './public-asset-policy.mjs';
 
 const script = fileURLToPath(new URL('./optimize-images.py', import.meta.url));
 const textExtensions = new Set(['.html', '.json', '.js', '.css', '.svg', '.md']);
@@ -28,6 +29,7 @@ export default function imagePipeline() {
       const mapping = new Map();
       const names = new Map();
       for (const row of manifest.images) {
+        if (!shouldPublishAsset(row.source)) continue;
         const name = path.posix.basename(row.source);
         names.set(name, [...(names.get(name) || []), row]);
         if (row.status !== 'converted') continue;
@@ -49,12 +51,16 @@ export default function imagePipeline() {
       const output = path.resolve(config.root, config.build.outDir);
       const rows = new Map(manifest.images.map(row => [row.source, row]));
       const jobs = [];
+      const excludedAssets = [];
       function collect(directory) {
         for (const entry of fs.readdirSync(directory, {withFileTypes: true})) {
           if (entry.name.startsWith('.') || entry.name.endsWith('.tmp.pdf')) continue;
           const source = path.join(directory, entry.name);
           if (entry.isDirectory()) { collect(source); continue; }
           const url = '/' + path.relative(publicRoot, source).split(path.sep).join('/');
+          // Check the original path before selecting its generated WebP variant.
+          // Originals stay on disk; restricted archives never enter dist/.
+          if (!shouldPublishAsset(url)) { excludedAssets.push(url); continue; }
           const row = rows.get(url);
           const relative = (row?.status === 'converted' ? row.target : url).slice(1);
           const target = path.join(output, relative);
@@ -79,7 +85,13 @@ export default function imagePipeline() {
       const report = path.join(config.root, 'research', 'webp-optimization');
       fs.mkdirSync(report, {recursive: true});
       fs.writeFileSync(path.join(report, 'manifest.json'), JSON.stringify(manifest, null, 2));
+      fs.writeFileSync(path.join(report, 'public-assets.json'), JSON.stringify({
+        copied: jobs.length,
+        excluded: excludedAssets.sort(),
+        scope: 'Website build only; local originals and Git history are unchanged.',
+      }, null, 2));
       console.log(`WebP public assets copied; ${manifest.converted} original images excluded from deployment.`);
+      console.log(`Public asset policy: ${excludedAssets.length} unreviewed archive assets omitted from deployment.`);
     },
   };
 }

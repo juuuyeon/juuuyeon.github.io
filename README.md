@@ -1,14 +1,21 @@
 # 박주연 Design Archive
 
-## 개인 Git 저장소
+## 공개 사이트와 배포
 
 - 전용 저장소: https://github.com/juuuyeon/juuuyeon.github.io
-- 2026-11-20 요청 범위는 **비공개 저장소 생성 및 커밋·푸시**입니다. 공개 전환과 GitHub Pages 배포는 별도이며 자동 배포 workflow는 추가하지 않습니다.
+- 공개 사이트: https://juuuyeon.github.io/
+- 2026-11-20 사용자 요청에 따라 이 포트폴리오 저장소만 공개 전환했으며, GitHub Pages 배포를 구성했습니다. 다른 저장소는 변경하지 않습니다.
+- main에 push하면 GitHub Actions에서 테스트 → WebP 이미지 최적화 및 정적 경로 생성 → Pages 배포를 진행합니다. Actions의 수동 실행도 가능합니다.
 - 사이트 코드, 실제 사이트 자산(public), 패키지 잠금 파일, 빌드·미리보기 도구를 버전 관리합니다.
 - node_modules, dist, 개인 조사·이전 소스 사본(research), 과거 배포 자료(deployment), 일회성 로컬 가져오기 도구는 제외합니다. 아래 작업 기록의 해당 경로는 로컬에 보존되어 있습니다.
 - 새 환경에서 개발: Node.js 22.12 이상에서 `npm ci --ignore-scripts` 후 `npm run dev`.
 - 프로덕션 이미지 빌드에는 Python 3 및 Pillow도 필요합니다. 예: `python3 -m venv .venv`, `source .venv/bin/activate`, `python -m pip install Pillow`, `npm run build`.
-- 공개 전환 전에는 소스·Git 이력뿐 아니라 public의 이미지·영상·PDF와 회사 프로젝트 자료의 공개 범위를 검토해야 합니다. 현재 저장소명만으로 사이트가 배포되는 것은 아닙니다.
+- 테스트: `npm test`. 빌드: `npm run build`. 홈·목록·프로젝트 상세 16개에 실제 HTML 진입점을 생성하므로 상세 주소 직접 방문과 새로고침을 지원합니다.
+- 공개 웹사이트 빌드에서는 개인정보 여부가 확인되지 않은 JNJ 자료와 여수 어드민·운영 가이드 원본 묶음 및 관련 문서 63개를 제외합니다. 검수한 어드민 미리보기 2개는 유지합니다. 개발 모드와 원본 파일은 보존합니다.
+- 이 제외 정책은 **웹사이트 배포물에만 적용**됩니다. 이미 공개된 저장소와 Git 이력에는 원본이 남아 있으며, 전체 이미지·영상·PDF의 공개 적합성을 보증하지 않습니다. 원본 공개 범위 조정은 별도 검토가 필요합니다.
+- Pretendard의 OFL 라이선스는 `public/licenses/Pretendard-OFL.txt`에 포함합니다.
+
+아래 날짜별 항목은 작업 당시의 기록입니다. 과거의 “로컬만” 또는 “배포하지 않음” 표기는 현재 배포 상태가 아닙니다.
 
 ## 2026-11-20 프로젝트 상세 읽기 경험 정리
 
@@ -61,7 +68,7 @@
 
 - 로컬: http://localhost:4178/
 - 같은 네트워크: http://172.30.1.48:4178/ (현재 Mac의 IP. 다른 네트워크에서는 바뀔 수 있음)
-- 외부 배포하지 않았습니다.
+- 공개 사이트: https://juuuyeon.github.io/
 
 ```sh
 npm ci --ignore-scripts

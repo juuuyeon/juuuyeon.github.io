@@ -13,6 +13,10 @@
 !/scripts/vite-image-pipeline.mjs
 !/scripts/preview-static.py
 !/scripts/build-image-metadata.py
+!/scripts/export-static-routes.mjs
+!/scripts/test-static-routes.mjs
+!/scripts/public-asset-policy.mjs
+!/scripts/test-public-asset-policy.mjs
 
 # Credentials, editor state, and operating system metadata
 .env

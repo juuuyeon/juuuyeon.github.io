@@ -125,7 +125,7 @@ export default function CaseStudyPage({project:p}){
       <span className="case-kicker">PROJECT NOTES</span>
       <h2 id="notes-title">작업의 범위와 남은 질문.</h2>
       <p>{p.limits}</p>
-      <div className="case-resource-links">{p.sourceRepo&&<a href={p.sourceRepo} target="_blank" rel="noreferrer">GitHub 프로젝트 원본</a>}<a href="/editions/portfolio-20261106.pdf" target="_blank" rel="noreferrer">전체 포트폴리오 PDF</a></div>
+      <div className="case-resource-links">{!import.meta.env.PROD&&p.sourceRepo&&<a href={p.sourceRepo} target="_blank" rel="noreferrer">GitHub 프로젝트 원본</a>}<a href="/editions/portfolio-20261106.pdf" target="_blank" rel="noreferrer">전체 포트폴리오 PDF</a></div>
      </section>
     </div>
    </div>
