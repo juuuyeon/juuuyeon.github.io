@@ -1,0 +1,483 @@
+[
+  {
+    "id": "yeosu-brand",
+    "name": "YEOSU SAEGOMAK",
+    "headline": "바다에서 시작된 새로운 인상",
+    "category": "Brand",
+    "cover": "/work/branding/yeosu/01_메인.webp",
+    "gallery": [
+      "/work/branding/yeosu/브랜드_아이덴티티_플랫레이.webp",
+      "/work/branding/yeosu/선물패키지.webp",
+      "/work/branding/yeosu/그릇과수저세트.webp",
+      "/work/branding/yeosu/로드위 배너목업.webp",
+      "/work/branding/yeosu/로고엠보싱.webp",
+      "/work/branding/yeosu/명함플랫레이.webp",
+      "/work/branding/yeosu/차량 매핑.webp",
+      "/work/branding/yeosu/깃발_YOURS.webp",
+      "/work/branding/yeosu/정문표지판_목업.webp"
+    ],
+    "description": "기업의 방향을 합의한 뒤 형태와 접점의 규칙으로",
+    "goal": "Flow의 의미를 로고·색·움직임의 적용 규칙으로 연결합니다.",
+    "scope": [
+      "핵심 개념과 기준 합의",
+      "워드마크·심볼·색 적용",
+      "접점 검수·가이드 인계"
+    ],
+    "limits": "워크숍·결정 기록과 사용자 인식 조사를 구분. 문서의 시장 일반화는 출처 검증 후 사용.",
+    "figma": "",
+    "edition": "2026",
+    "source": "여수새고막 브랜드 아이덴티티",
+    "sourceRepo": "https://github.com/juuuyeon/yeosu_branding",
+    "hover": "/work/branding/yeosu/브랜드_아이덴티티_플랫레이.webp",
+    "galleryLabel": "브랜드 적용 목업"
+  },
+  {
+    "id": "product",
+    "name": "WITIM",
+    "headline": "업무의 흐름을 잇는 경험",
+    "category": "Product",
+    "cover": "/work/p015-2.png",
+    "gallery": [
+      "/work/p017-0.png",
+      "/work/p017-1.png",
+      "/work/p017-2.png",
+      "/work/p006-0.png"
+    ],
+    "description": "플랫폼을 바꿔도 업무 맥락과 상태를 잃지 않게",
+    "goal": "직원이 현재 상태와 실패 이유를 이해하고, 같은 출근 과업으로 돌아오게 합니다.",
+    "scope": [
+      "출근 진입·권한 확인",
+      "판정 조건과 실패 안내",
+      "재시도·완료 상태"
+    ],
+    "limits": "과거 장표의 집계·성과 수치는 원문 재검증 전 재사용하지 않음. 엔지니어링 변경을 개인 디자인 성과로 단정하지 않음.",
+    "figma": "https://www.figma.com/design/88xgLK2NY5fT05sNXDKSCA/witim_v2.0?node-id=779-2",
+    "edition": "2026",
+    "source": "WITIM 업무 협업 UX"
+  },
+  {
+    "id": "refine",
+    "name": "REFINE",
+    "headline": "감각을 정제하는 브랜드",
+    "category": "Brand",
+    "cover": "/work/branding/refine/hero-img-3.webp",
+    "gallery": [
+      "/work/branding/refine/moodboard-grid.jpg",
+      "/work/branding/refine/refine-face-01.png",
+      "/work/p124-0.png"
+    ],
+    "description": "브랜드가 약속한 인상을 정보와 상호작용으로 연결",
+    "goal": "Essence·Balance·Refine의 브랜드 가치를 색상과 이미지, 웹 인터랙션으로 연결합니다. 같은 인상이 데스크톱과 모바일에서도 이어지도록 구성했습니다.",
+    "scope": [
+      "브랜드 핵심 가치·웜 뉴트럴 색상 체계",
+      "이미지 디렉션·웹 인터랙션",
+      "반응형 웹·콘텐츠 운영 구조"
+    ],
+    "limits": "2026.10 시장 보완 조사를 과거 디자인 결정의 근거로 소급하지 않음. UT 결과 없음.",
+    "figma": "",
+    "edition": "2026",
+    "source": "Refine 브랜딩·웹",
+    "hover": "/work/branding/refine/moodboard-grid.jpg",
+    "sourceRepo": "https://github.com/juuuyeon/witim_ax_studio",
+    "galleryLabel": "Refine 브랜드 이미지 · 디자인 적용 화면"
+  },
+  {
+    "id": "landing",
+    "name": "WITIM Website",
+    "headline": "제품의 가치를 첫 화면에",
+    "category": "Web",
+    "cover": "/work/landing-designer.png",
+    "gallery": [
+      "/work/landing-designer.png",
+      "/work/landing-mobile.png",
+      "/work/landing-ax.png"
+    ],
+    "description": "광고에서 기대한 내용이 첫 화면과 다음 행동까지 이어지게",
+    "goal": "방문자가 자신에게 맞는 가치와 근거를 읽고 문의할 수 있게 합니다.",
+    "scope": [
+      "유입 맥락·메시지 매칭",
+      "CTA와 문의 입력",
+      "완료·실패 안내"
+    ],
+    "limits": "기존 버전 기록은 날짜 표시. GA4 결과나 전환 개선은 별도 근거 필요. AX STUDIO는 별도 목표·성과 확인 후 분리 후보.",
+    "figma": "",
+    "edition": "2026",
+    "source": "WITIM 랜딩·유입 경험"
+  },
+  {
+    "id": "yeosu-web",
+    "name": "YEOSU Website",
+    "headline": "브랜드와 운영을 하나로",
+    "category": "Web",
+    "cover": "/work/p090-1.png",
+    "gallery": [
+      "/work/p090-0.png",
+      "/work/p102-0.png",
+      "/work/p104-0.png"
+    ],
+    "description": "방문자의 문의 끝을 운영자의 첫 작업으로 연결",
+    "goal": "바이어의 탐색·문의와 운영자의 접수·콘텐츠 변경을 이어줍니다.",
+    "scope": [
+      "공통 제품 데이터·언어 맥락",
+      "문의 접수·운영 연결",
+      "편집·저장·복구·권한"
+    ],
+    "limits": "PRD는 계획, 회고는 경험 근거. 현재 배포·문의 성과는 재검증 필요. 고객 문의·계정 개인정보는 사용하지 않음.",
+    "figma": "https://www.figma.com/design/UrCUYlf1pYFsBa4R035D54/Untitled?node-id=2001-38698",
+    "edition": "2026",
+    "source": "여수새고막 웹·어드민"
+  },
+  {
+    "id": "ds",
+    "name": "WITIM Design System",
+    "headline": "다르게 쓰여도, 같은 경험",
+    "category": "System",
+    "cover": "/work/p020-1.png",
+    "gallery": [
+      "/work/detail-button.png",
+      "/work/p036-0.png"
+    ],
+    "description": "디자인을 직접 실행하고 팀이 같은 기준으로 검수하게",
+    "goal": "디자이너와 개발자가 같은 상태·테마·폭을 기준으로 변경을 검토하게 합니다.",
+    "scope": [
+      "관찰과 수정 단위 연결",
+      "토큰·컴포넌트 계약",
+      "동일 조건 비교·검수"
+    ],
+    "limits": "시간 단축률·채택률·운영 품질 향상은 실측 자료가 있을 때만 사용.",
+    "figma": "",
+    "edition": "2026",
+    "source": "WITIM 디자인 시스템·AI"
+  },
+  {
+    "id": "cardnews",
+    "name": "WITIM Stories",
+    "headline": "카드뉴스를 만드는 기준과 시스템",
+    "category": "Content",
+    "cover": "/work/cardnews/IG-051-CARD-01-01.png",
+    "gallery": [
+      "/work/p130-0.png",
+      "/work/p130-2.png",
+      "/work/p141-0.png"
+    ],
+    "description": "생성 이미지에서, 수정 가능한 카드뉴스 시스템으로",
+    "goal": "주제와 콘티, 장별 소재를 만들고 역할별 템플릿에 연결합니다. 문구·사진·로고를 분리해 수정하고, 장별 검수와 부분 재시도를 거친 결과를 내보냅니다.",
+    "scope": [
+      "주제·콘티·장별 생성과 부분 재시도",
+      "재사용 Figma 템플릿 7종 · Auto Layout",
+      "카드뉴스 3편·18장 · 편집 가능한 텍스트 161개",
+      "텍스트·사진·로고 분리와 장별 출력 검수"
+    ],
+    "limits": "추가 작품은 2026년 11월 제작한 3편·18장의 Figma 내보내기본입니다. 영상 소개형의 원작은 @seoah_0919의 서아네 ep.22이며, 여기서는 카드 편집과 자동화 설계 범위를 보여줍니다. 제작·검수 수량이며 도달·전환 등 운영 성과를 뜻하지 않습니다.",
+    "figma": "https://www.figma.com/design/88xgLK2NY5fT05sNXDKSCA/witim_v2.0?node-id=877-26",
+    "edition": "2026",
+    "source": "카드뉴스 제작·운영 자동화",
+    "showcaseCovers": [
+      "/work/cardnews/IG-051-CARD-01-01.png",
+      "/work/cardnews/IG-113-CARD-01-01.png",
+      "/work/cardnews/IG-116-CARD-01-01.png"
+    ],
+    "hover": "/work/cardnews/IG-113-CARD-01-01.png",
+    "collections": [
+      {
+        "id": "IG-051-CARD-01",
+        "kind": "HOW TO",
+        "description": "경쟁사 조사 스킬을 설명하는 정보형 카드뉴스. 반복되는 업무에서 시작해 요청과 검증 기준으로 이어집니다.",
+        "title": "경쟁사 조사표, 양식 설명만 세 번째라면?",
+        "pages": [
+          {
+            "image": "/work/cardnews/IG-051-CARD-01-01.png",
+            "alt": "경쟁사 조사표, 양식 설명만 세 번째라면?"
+          },
+          {
+            "image": "/work/cardnews/IG-051-CARD-01-02.png",
+            "alt": "“이 회사도 같은 양식으로요.” 회사만 바뀌는데, 설명은 매번 처음부터. 이번 조사 공개된 요금제와 주요 기능 늘 같은 기준 대상 고객 · 가격 조건 · 출처 원하는 결과 팀이 나란히 비교할 수 있는 표"
+          },
+          {
+            "image": "/work/cardnews/IG-051-CARD-01-03.png",
+            "alt": "잘 나온 조사표에서 규칙을 꺼내보세요. “잘 정리해줘”보다 우리 팀의 기준을 구체적으로. 포함할 항목 대상 고객 / 기능 / 요금 조건 출처 표기 공식 페이지 주소와 확인일 모르는 정보 추측하지 않고 미확인 표시"
+          },
+          {
+            "image": "/work/cardnews/IG-051-CARD-01-04.png",
+            "alt": "다음 조사에서는 대상을 바꿔 요청해요. 기준은 이어 쓰고, 이번 질문은 더 구체적으로. 쓸 업무 방식 정리해둔 경쟁사 조사 스킬 이번 대상 비교할 서비스와 공식 링크 추가 조건 이번에 집중할 기능이나 시장"
+          },
+          {
+            "image": "/work/cardnews/IG-051-CARD-01-05.png",
+            "alt": "표가 채워졌다면 비교 조건도 맞춰봐요. 보기 좋은 표보다 비교할 수 있는 표가 필요하니까. 월간 / 연간 요금의 결제 조건을 통일 포함 / 별도 옵션과 추가 비용을 구분 근거 확인 공식 출처와 확인일을 대조"
+          },
+          {
+            "image": "/work/cardnews/IG-051-CARD-01-06.png",
+            "alt": "조사할 때마다 양식부터 설명했다면. 팀에서 바로 쓰는 위팀 활용법, 팔로우하고 받아보세요."
+          }
+        ]
+      },
+      {
+        "id": "IG-113-CARD-01",
+        "kind": "QUIZ",
+        "description": "가상 직장 상황을 선택지와 유형으로 풀어낸 참여형 콘텐츠입니다.",
+        "title": "“마지막 수정” 이 말에 당신은 어떤 표정인가요?",
+        "pages": [
+          {
+            "image": "/work/cardnews/IG-113-CARD-01-01.png",
+            "alt": "“마지막 수정” 이 말에 당신은 어떤 표정인가요?"
+          },
+          {
+            "image": "/work/cardnews/IG-113-CARD-01-02.png",
+            "alt": "오후 5시 58분. 메시지가 도착했습니다. 마지막이라는 말이 가장 많이 수정됐다. 요청자 “진짜 마지막인데요…” 추가 요청 “처음 시안 느낌으로 될까요?” 내 화면 최종_진짜최종_수정본 열려 있음"
+          },
+          {
+            "image": "/work/cardnews/IG-113-CARD-01-03.png",
+            "alt": "머릿속 답장, 가장 가까운 것은? 셋 다 정중합니다. 마음속 온도는 다릅니다. A 처음 시안 아직 안 지웠어요. B 처음의 어떤 부분이 좋으셨나요? C 좋아요. 마지막의 기준부터요."
+          },
+          {
+            "image": "/work/cardnews/IG-113-CARD-01-04.png",
+            "alt": "A · 백업의 신 B · 의도 수사관 파일을 찾는 사람과 뜻을 찾는 사람. A의 생존법 지우지 않은 첫 시안이 오늘의 영웅. A의 속마음 이럴 줄 알고 다 남겨뒀죠. B의 생존법 “느낌”을 색·구도·문구로 번역 중."
+          },
+          {
+            "image": "/work/cardnews/IG-113-CARD-01-05.png",
+            "alt": "C · 범위 협상가 오늘은 선을 그어봅니다. “마지막”을 믿기보다 마지막을 함께 정합니다. 먼저 확인 바꿀 요소를 하나씩 정리해요. 함께 확인 이번에 확정할 범위를 맞춰요. 마지막 한마디 “이 세 가지 수정으로 맞을까요?”"
+          },
+          {
+            "image": "/work/cardnews/IG-113-CARD-01-06.png",
+            "alt": "퇴근 직전의 그 한마디, 혼자 겪는 일 아니죠. 웃픈 직장 이야기, 위팀을 팔로우하고 만나보세요."
+          }
+        ]
+      },
+      {
+        "id": "IG-116-CARD-01",
+        "kind": "VIDEO STORY",
+        "description": "서아네 ep.22의 장면을 소개하는 카드뉴스. 원작 영상: @seoah_0919. 포트폴리오 범위는 카드 편집·템플릿·제작 자동화입니다.",
+        "title": "집사 잡던 고양이 교관, 본인 차례가 왔다",
+        "pages": [
+          {
+            "image": "/work/cardnews/IG-116-CARD-01-01.png",
+            "alt": "집사 잡던 고양이 교관, 본인 차례가 왔다"
+          },
+          {
+            "image": "/work/cardnews/IG-116-CARD-01-02.png",
+            "alt": "“훈련병! 몇 킬로.” 고양이가 교관이 됐어요.",
+            "video": "/work/cardnews/IG-116-CARD-01-02.mp4"
+          },
+          {
+            "image": "/work/cardnews/IG-116-CARD-01-03.png",
+            "alt": "“버텨. 어제 라면.” 너무 많이 알고 있습니다."
+          },
+          {
+            "image": "/work/cardnews/IG-116-CARD-01-04.png",
+            "alt": "엄격하던 교관도 체중계에 올라갑니다.",
+            "video": "/work/cardnews/IG-116-CARD-01-04.mp4"
+          },
+          {
+            "image": "/work/cardnews/IG-116-CARD-01-05.png",
+            "alt": "훈련시키던 쪽이 올라가는 순간."
+          },
+          {
+            "image": "/work/cardnews/IG-116-CARD-01-06.png",
+            "alt": "고양이가 교관이라면, 집사는 매일 훈련 중. 위팀으로 만든 다음 AI 작품도 팔로우하고 만나보세요."
+          }
+        ]
+      }
+    ],
+    "templateImage": "/work/cardnews/templates.png"
+  },
+  {
+    "id": "store",
+    "name": "App Store Toolkit",
+    "headline": "하나의 화면, 여러 스토어",
+    "category": "System",
+    "cover": "/work/p164-0.png",
+    "gallery": [
+      "/work/p164-1.png",
+      "/work/p164-2.png",
+      "/work/p166-0.png"
+    ],
+    "description": "실제 앱 화면을 보존하며 플랫폼별 규격을 생성·검사",
+    "goal": "캡처 출처·설정·출력·검수 근거를 연결해 사람이 제출 가능성을 판단하게 합니다.",
+    "scope": [
+      "출처와 시연 표시",
+      "화면×프로필 렌더",
+      "넘침 검사·manifest·인계"
+    ],
+    "limits": "시연 입력은 공개 스토어 이미지 추출. 신규 시뮬레이터 캡처·스토어 업로드·심사는 미실행.",
+    "figma": "",
+    "edition": "2026",
+    "source": "스토어 등록 이미지 자동화"
+  },
+  {
+    "id": "businesscard",
+    "name": "Business Card System",
+    "headline": "반복 제작에도 흔들리지 않게",
+    "category": "System",
+    "cover": "/work/p148-0.png",
+    "gallery": [
+      "/work/p148-1.png",
+      "/work/p159-0.png"
+    ],
+    "description": "입사자 정보와 디자인을 분리해 반복 제작을 절차로",
+    "goal": "명단을 템플릿 변수에 연결하고 출력과 인쇄 검수를 각각 확인하게 합니다.",
+    "scope": [
+      "UTF-8 CSV·변수 매핑",
+      "개인별 PDF·오류 수집",
+      "인쇄 검수·재처리"
+    ],
+    "limits": "실제 직원 연락처를 쓰지 않음. 아웃라인 시도와 모든 PDF 아웃라인 완료를 구분. 공수 절감률 미측정.",
+    "figma": "",
+    "edition": "2026",
+    "source": "명함 제작 자동화"
+  },
+  {
+    "id": "measurement",
+    "name": "WITIM Operations",
+    "headline": "숫자를 다음 판단으로",
+    "category": "Product",
+    "cover": null,
+    "gallery": [],
+    "description": "숫자를 보기 전에 수집 조건과 해석 가능성을 알게",
+    "goal": "수집 상태·기간·분모를 확인한 뒤 비교 가능한 값만 읽게 합니다.",
+    "scope": [
+      "수집 상태 판별",
+      "기간·분모·이벤트 정의",
+      "복구와 재조회"
+    ],
+    "limits": "계측 명세·시연·운영 성과를 분리. 미실행 리서치는 본편의 완료 성과로 표현하지 않음.",
+    "figma": "",
+    "edition": "2026",
+    "source": "WITIM 측정·운영 UX"
+  },
+  {
+    "id": "cpp",
+    "name": "WITIM CPP",
+    "headline": "함께 만들 사람을 찾는 장면",
+    "category": "Content",
+    "cover": "/work/cpp-1.png",
+    "gallery": [
+      "/work/cpp-2.png",
+      "/work/cpp-3.png"
+    ],
+    "description": "모집 메시지를 읽기 쉬운 광고 이미지로 구성했습니다.",
+    "goal": "관련 프로젝트의 실제 제작물을 별도 작업 묶음으로 모았습니다.",
+    "scope": [
+      "콘텐츠 구성",
+      "이미지 제작",
+      "시리즈 편집"
+    ],
+    "limits": "제작 산출물입니다. 게시·광고 집행 결과나 사용자 성과를 의미하지 않습니다.",
+    "figma": "",
+    "edition": "2026",
+    "source": "WITIM CPP 모집 광고",
+    "related": "cardnews",
+    "kind": "collection"
+  },
+  {
+    "id": "friday",
+    "name": "금요일 오후 5시",
+    "headline": "일하는 순간을 한 편의 만화로",
+    "category": "Content",
+    "cover": "/work/friday-1.png",
+    "gallery": [
+      "/work/friday-2.png",
+      "/work/friday-3.png",
+      "/work/friday-4.png",
+      "/work/friday-5.png",
+      "/work/friday-6.png"
+    ],
+    "description": "직장의 익숙한 순간을 여섯 장의 시각적 이야기로 구성했습니다.",
+    "goal": "관련 프로젝트의 실제 제작물을 별도 작업 묶음으로 모았습니다.",
+    "scope": [
+      "콘텐츠 구성",
+      "이미지 제작",
+      "시리즈 편집"
+    ],
+    "limits": "제작 산출물입니다. 게시·광고 집행 결과나 사용자 성과를 의미하지 않습니다.",
+    "figma": "",
+    "edition": "2026",
+    "source": "금요일 오후 5시",
+    "related": "cardnews",
+    "kind": "collection"
+  },
+  {
+    "id": "reaction",
+    "name": "엄지 하나의 대화",
+    "headline": "작은 반응이 이어 주는 이야기",
+    "category": "Content",
+    "cover": "/work/reaction-1.png",
+    "gallery": [
+      "/work/reaction-2.png",
+      "/work/reaction-3.png",
+      "/work/reaction-4.png",
+      "/work/reaction-5.png",
+      "/work/reaction-6.png"
+    ],
+    "description": "메신저의 반응을 소재로 제작한 여섯 장의 업무 만화입니다.",
+    "goal": "관련 프로젝트의 실제 제작물을 별도 작업 묶음으로 모았습니다.",
+    "scope": [
+      "콘텐츠 구성",
+      "이미지 제작",
+      "시리즈 편집"
+    ],
+    "limits": "제작 산출물입니다. 게시·광고 집행 결과나 사용자 성과를 의미하지 않습니다.",
+    "figma": "",
+    "edition": "2026",
+    "source": "엄지 반응 만화",
+    "related": "cardnews",
+    "kind": "collection"
+  },
+  {
+    "id": "careers",
+    "name": "WITIM Careers",
+    "headline": "함께할 사람에게 전하는 팀의 경험",
+    "category": "Web",
+    "cover": "/work/careers-1.png",
+    "gallery": [
+      "/work/careers-2.png"
+    ],
+    "description": "팀을 소개하고 채용 정보를 탐색하는 웹·모바일 화면입니다.",
+    "goal": "관련 프로젝트의 실제 제작물을 별도 작업 묶음으로 모았습니다.",
+    "scope": [
+      "웹·모바일 채용 화면"
+    ],
+    "limits": "2026년 10월 제작 시점의 화면입니다. 이후 갤러리 변경이 반영되지 않은 이전 캡처입니다.",
+    "figma": "",
+    "edition": "2026",
+    "source": "WITIM 채용 경험",
+    "related": "landing",
+    "kind": "collection"
+  },
+  {
+    "id": "chaisa",
+    "name": "CHAISA",
+    "headline": "The Right Choice for Your Car",
+    "category": "Brand",
+    "cover": "/source-work/chaisa/billboard-hero.webp",
+    "gallery": [
+      "/source-work/chaisa/billboard-hero.webp"
+    ],
+    "description": "Vehicle Care Service Platform, CHAISA",
+    "goal": "브랜드 아이덴티티부터 차량 견적 요청 경험까지 연결한 프로젝트입니다.",
+    "scope": [
+      "Brand Identity",
+      "UX/UI",
+      "Website"
+    ],
+    "limits": "원본 팀 크레딧: Aeji Jung · Juyeon Park · Juhee Oh. WITIM AX STUDIO, 2026.6.",
+    "figma": "https://www.figma.com/design/UrCUYlf1pYFsBa4R035D54/Untitled?node-id=2001-785",
+    "edition": "2026",
+    "source": "WITIM AX STUDIO",
+    "sourceRepo": "https://github.com/juuuyeon/witim_ax_studio"
+  },
+  {
+    "id": "shortform",
+    "name": "AI Short Films",
+    "headline": "짧은 장면으로 만드는 긴장, 웃음, 반전.",
+    "category": "Content",
+    "cover": "/work/shortform/cover.webp",
+    "hover": "/work/shortform/cover-hover.webp",
+    "gallery": ["/work/shortform/cover-hover.webp"],
+    "description": "일상의 상상과 장르적 반전을 세로 영상으로 풀어낸 AI 숏폼 시리즈입니다.",
+    "goal": "인물·공간·소품의 기준과 행동의 인과를 나눠 설계하고, 카메라와 반응 타이밍으로 짧은 장면의 흐름을 만들었습니다.",
+    "scope": ["영상 프롬프트·장면 구성", "캐릭터·공간·동작 연속성", "카메라·리액션 타이밍", "숏폼 결과물·카드뉴스 확장"],
+    "limits": "원본 캡션 기준 제작지원: WITIM · 공동작업자: WITIM Studio.",
+    "edition": "2026",
+    "source": "주연 바이럴 · AI 숏폼"
+  }
+]

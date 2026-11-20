@@ -1,0 +1,31 @@
+# Installed dependencies and generated builds
+/node_modules/
+/dist/
+/.venv/
+
+# Local research, previous source copies, and old hosting instructions
+/research/
+/deployment/
+
+# Keep the build and local preview tools, not one-off personal imports
+/scripts/*
+!/scripts/optimize-images.py
+!/scripts/vite-image-pipeline.mjs
+!/scripts/preview-static.py
+!/scripts/build-image-metadata.py
+
+# Credentials, editor state, and operating system metadata
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+.DS_Store
+._*
+*.log
+*.tmp
+*.tmp.pdf
+/.idea/
+/.vscode/

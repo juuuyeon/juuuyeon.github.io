@@ -1,0 +1,75 @@
+/* Display scale follows the original CHAISA phone and character compositions. */
+.source-chaisa .character-hero {
+  width: clamp(180px, 43vw, 280px);
+  height: auto;
+  margin: 24px auto 0;
+}
+.source-chaisa .character-bubble { text-align: center; }
+.source-chaisa .chaisa-construction {
+  width: min(100%, 1120px);
+  max-height: none;
+  height: auto;
+  margin: 56px auto;
+}
+.source-chaisa .chaisa-ui-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: clamp(24px, 5vw, 80px);
+  max-width: 1120px;
+  margin: 64px auto 0;
+  align-items: start;
+}
+.source-chaisa .chaisa-ui-step {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  min-width: 0;
+  margin-top: 0;
+}
+.source-chaisa .chaisa-ui-step:nth-child(2) { margin-top: 100px; }
+.source-chaisa .chaisa-ui-step:nth-child(3) { margin-top: 200px; }
+.source-chaisa .chaisa-ui-step h3 { margin: 14px 0; }
+.source-chaisa .chaisa-ui-step p { font-size: 15px; line-height: 1.7; }
+.source-chaisa .chaisa-ui-step img {
+  width: min(100%, 240px);
+  height: auto;
+  border-radius: 12px;
+}
+.source-chaisa #chaisa_uisocial_1 .source-images {
+  grid-template-columns: minmax(0, 1fr);
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.source-chaisa .chaisa-mockups {
+  grid-template-columns: 740fr 534fr 614fr;
+  grid-template-areas: 'car wheel wheel' 'car side mech';
+  gap: 6px;
+  max-width: 1180px;
+  margin: 0 auto;
+}
+.chaisa-mockups > figure:nth-child(1) { grid-area: car; }
+.chaisa-mockups > figure:nth-child(2) { grid-area: wheel; }
+.chaisa-mockups > figure:nth-child(3) { grid-area: side; }
+.chaisa-mockups > figure:nth-child(4) { grid-area: mech; }
+.source-chaisa .chaisa-mockups > figure { align-self: center; }
+.source-chaisa .source-chaisa-closing { background: #0c1120; }
+.source-chaisa .closing-motion { max-width: 1672px; margin-inline: auto; }
+.source-chaisa #chaisa_footer_1 .source-logo {
+  width: 160px;
+  height: auto;
+  max-height: none;
+  margin: 56px 0 32px;
+}
+.source-chaisa #chaisa_footer_1 dt { color: #aab4c8; }
+.source-chaisa #chaisa_footer_1 > p { margin-top: 24px; }
+@media (max-width: 700px) {
+  .source-chaisa .chaisa-ui-grid { grid-template-columns: minmax(0, 1fr); gap: 64px; }
+  .source-chaisa .chaisa-ui-step { width: min(100%, 288px); margin-inline: auto; }
+  .source-chaisa .chaisa-ui-step:nth-child(n) { margin-top: 0; }
+  .source-chaisa .chaisa-ui-step img { width: 100%; }
+  .source-chaisa .chaisa-mockups {
+    grid-template-columns: 534fr 614fr;
+    grid-template-areas: 'car car' 'wheel wheel' 'side mech';
+  }
+  .source-chaisa .chaisa-mockups > figure:first-child { width: min(100%, 370px); margin-inline: auto; }
+}

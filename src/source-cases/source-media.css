@@ -1,0 +1,22 @@
+/* Bounded image scale and original aspect ratios across source case studies. */
+.source-refine,.source-chaisa,.source-yeosu-web{max-width:1920px;margin-inline:auto}
+.source-page .source-section{padding-inline:clamp(24px,5vw,96px)}
+.source-page .source-wide{max-width:min(100%,var(--asset-width,100%));height:auto;margin-inline:auto}
+.source-page .source-images>figure>img{max-width:min(100%,var(--asset-width,100%));margin-inline:auto}
+.source-page .source-closing>img:not(.source-wide){width:min(180px,var(--asset-width,180px));height:auto;max-height:none}
+.source-page .color-promise{width:min(100%,640px);margin-inline:auto}
+.source-i18n-layout{display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:8vw}
+.source-i18n-layout>.source-wide{width:min(100%,410px);margin:0 auto}
+.source-i18n-layout>div>p{margin-top:48px}
+.source-yeosu-web #landing>.source-wide{width:min(100%,1200px)}
+.source-page .source-screen-grid img{max-width:min(100%,var(--asset-width,100%));margin-inline:auto}
+@scope (.yeosu-source){
+ .ba--before>.ba__logo{width:min(74%,360px)}
+ .native-billboard,.native-logo-detail{max-width:1024px;margin-inline:auto}
+}
+@media(max-width:700px){.source-i18n-layout{grid-template-columns:1fr;gap:40px}.source-i18n-layout .source-grid.two{grid-template-columns:1fr 1fr}.source-page .color-promise{margin-top:28px}}
+@media(max-width:360px){#refine_process_1 .source-grid.four{grid-template-columns:1fr}}
+
+.source-yeosu-web .source-guide-links>div{display:flex;flex-wrap:wrap;gap:16px}
+.source-yeosu-web .source-guide-links a{padding:16px 0;margin-right:24px;font-size:18px}
+.source-index-more{margin-top:32px}

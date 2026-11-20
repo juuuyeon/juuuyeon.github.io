@@ -1,0 +1,11 @@
+/* Actual image pixels set the maximum display size. Keep complete artwork. */
+.case-page .case-hero-art{display:grid;place-items:center}
+.case-page .case-hero-art>img{object-fit:contain;max-width:var(--asset-width,100%);max-height:var(--asset-height,100%)}
+.case-page .case-hero-art.content{aspect-ratio:auto;min-height:460px;padding:48px 6vw}
+.case-page .case-hero-art.content>img{width:auto;height:auto;max-width:min(100%,var(--asset-width,100%));max-height:min(720px,var(--asset-height,720px))}
+.case-page .case-hero-art .cardnews-covers{width:100%;min-height:420px}
+.case-page .case-gallery img{max-width:min(100%,var(--asset-width,100%));max-height:min(1000px,var(--asset-height,1000px));margin-inline:auto}
+.case-page .case-gallery figure>a{display:grid;place-items:center}
+.project.cpp .cover-image,.project.friday .cover-image,.project.reaction .cover-image{object-fit:contain;padding:24px}
+@media(min-width:1921px){.case-page .scene-frame{max-width:1920px}}
+@media(max-width:650px){.case-page .case-hero-art.content{min-height:0;padding:28px 6vw}.case-page .case-hero-art.content>img{max-height:650px}.case-page .case-hero-art .cardnews-covers{min-height:250px}.project.cpp .cover-image,.project.friday .cover-image,.project.reaction .cover-image{padding:16px}}

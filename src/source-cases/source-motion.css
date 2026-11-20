@@ -1,0 +1,55 @@
+/* Source motion: Refine hero/mobile/spectrum and CHAISA wipe/feed/ignition. */
+.source-page :is(button,a,input):focus-visible{outline:2px solid currentColor;outline-offset:5px}
+.motion-hero{position:relative;aspect-ratio:16/9;overflow:hidden;background:#111;--scroll-y:0%;--scroll-scale:1;--pointer-x:0px;--pointer-y:0px}
+.hero-camera{position:absolute;inset:0;transform:translateY(var(--scroll-y)) scale(var(--scroll-scale))}
+.hero-curtain{height:100%}
+.source-page .hero-curtain img{width:100%;height:100%;object-fit:cover;transform:translate(var(--pointer-x),var(--pointer-y)) scale(1.035);transition:transform 650ms cubic-bezier(.22,1,.36,1)}
+.refine-motion-hero .hero-curtain{animation:source-curtain 1.7s cubic-bezier(.22,1,.36,1) both}
+.chaisa-motion-hero .hero-curtain{animation:source-ignition 1.4s cubic-bezier(.22,1,.36,1) both}
+.hero-scrim{position:absolute;inset:0;pointer-events:none;opacity:var(--scrim,0);background:linear-gradient(transparent 48%,#efe7ddeb)}
+.chaisa-motion-hero .hero-scrim{display:none}
+.hero-sweep,.closing-sweep{position:absolute;inset:-8% auto -8% 0;width:42%;background:linear-gradient(90deg,transparent,#007aff66,transparent);filter:blur(24px);mix-blend-mode:screen;opacity:0;pointer-events:none}
+.hero-sweep{animation:source-sweep 1s .85s both}
+@keyframes source-curtain{from{clip-path:inset(9% 7% 13% 7%);transform:scale(1.09);opacity:0}60%{opacity:1}to{clip-path:inset(0);transform:scale(1);opacity:1}}
+@keyframes source-ignition{from{opacity:0;filter:brightness(.25) blur(5px);transform:scale(1.07)}to{opacity:1;filter:none;transform:scale(1)}}
+@keyframes source-sweep{from{transform:translateX(-180%);opacity:0}30%{opacity:.62}to{transform:translateX(280%);opacity:0}}
+.source-images>figure{overflow:hidden}
+.source-images>figure>img{transition:transform 900ms cubic-bezier(.22,1,.36,1)}
+@media(hover:hover){.source-images>figure:hover>img{transform:scale(1.045)}.source-mobile .source-images>figure:hover>img{transform:scale(1.015)}}
+.gradient-row .source-images>figure{background:#b8a99a;transition:transform 500ms ease}
+.gradient-row img{filter:saturate(.4);opacity:.68;transition:transform 700ms ease,filter 700ms ease,opacity 700ms ease}
+.gradient-row figure:hover{transform:translateY(-6px)}
+.gradient-row figure:hover img{filter:none;opacity:1}
+.source-mobile{overflow:hidden;padding-block:180px}
+.source-mobile .mobile-parallax{width:78%;gap:24px}
+.mobile-parallax>figure{box-shadow:0 30px 55px -25px #20181480;border-radius:12px}
+.mobile-parallax>figure:nth-child(2){margin-top:160px}.mobile-parallax>figure:nth-child(3){margin-top:80px}.mobile-parallax>figure:nth-child(4){margin-top:256px}
+.source-page #chaisa_cover_1{padding:0}
+.comparison-stage{aspect-ratio:16/9;position:relative;overflow:hidden;background:#0c1120}
+.comparison-pair{position:absolute;inset:0;opacity:0;transition:opacity 600ms ease;pointer-events:none}
+.comparison-pair[data-current=true]{opacity:1;z-index:1}
+.source-page .comparison-pair img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.comparison-controls{padding:20px 5vw 10px;display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap}
+.comparison-controls>div{display:flex;gap:8px}
+.comparison-controls button,.carousel-controls button{background:none;color:inherit;border:1px solid currentColor;cursor:pointer;padding:10px 16px;font:inherit;font-size:13px}
+.comparison-controls button[aria-pressed=true]{background:#171717;color:white}
+.comparison-slider{display:flex;align-items:center;gap:18px;padding:10px 5vw 28px;font-size:12px}
+.comparison-slider input{flex:1;accent-color:#007aff;cursor:ew-resize;min-width:0}
+.character-carousel{margin-top:70px}
+.character-carousel .character-feed{display:flex;position:relative;overflow-x:auto;overscroll-behavior-x:contain;scroll-snap-type:x mandatory;gap:24px;margin:0;padding-bottom:24px;scrollbar-width:thin}
+.character-carousel .character-feed:after{content:'';flex:0 0 calc(100% - min(360px,76vw) - 24px)}
+.character-carousel article{flex:0 0 min(360px,76vw);scroll-snap-align:start;min-width:0}
+.character-carousel article:nth-child(2){background:#f7f8fa;color:#0c1120}.character-carousel article:nth-child(3){background:#0c1120}.character-carousel article:nth-child(4){background:#fdc320;color:#0c1120}
+.carousel-controls{display:flex;align-items:center;gap:20px;margin-top:24px;font-size:13px}
+.carousel-controls button:last-child{margin-left:auto}
+.source-page button:disabled{opacity:.5;cursor:default}
+.color-promise{position:relative;display:block;width:100%;padding:0;margin:40px 0 0;border:0;overflow:hidden;background:#0c1120;cursor:pointer}
+.source-page .color-promise img{width:100%;filter:grayscale(1) contrast(1.06);transition:filter 900ms ease,transform 900ms ease}
+.promise-tint{position:absolute;inset:0;background:#0d3fb0;mix-blend-mode:color;transition:opacity 900ms ease;pointer-events:none}
+.promise-hint{position:absolute;bottom:24px;right:24px;font-size:12px;letter-spacing:.08em;color:white;transition:opacity 500ms ease}
+.color-promise[aria-pressed=true] img,.color-promise:focus-visible img{filter:none;transform:scale(1.03)}
+.color-promise[aria-pressed=true] :is(.promise-tint,.promise-hint),.color-promise:focus-visible :is(.promise-tint,.promise-hint){opacity:0}
+@media(hover:hover){.color-promise:hover img{filter:none;transform:scale(1.03)}.color-promise:hover :is(.promise-tint,.promise-hint){opacity:0}}
+.closing-motion{position:relative;overflow:hidden}.closing-motion>img{width:100%}.closing-panels{position:absolute;inset:0;display:flex;pointer-events:none}.closing-panel{flex:1;transform-origin:right center;transform:scaleX(0)}.closing-sweep{width:28%}
+@media(max-width:900px){.source-mobile{padding-block:70px}.source-mobile .mobile-parallax{width:100%}.mobile-parallax>figure:nth-child(even){margin-top:60px}.mobile-parallax>figure:nth-child(3){margin-top:0}.carousel-controls{gap:12px}.carousel-controls button{padding:10px}.comparison-controls{padding-inline:24px}.comparison-slider{padding-inline:24px}.comparison-controls button{padding:10px}}
+@media(prefers-reduced-motion:reduce){.source-page *, .source-page *:before,.source-page *:after{animation:none!important;transition:none!important;scroll-behavior:auto!important}.hero-camera,.hero-curtain,.source-page .hero-curtain img{transform:none!important}.mobile-parallax>figure{translate:none!important}.hero-sweep,.closing-panels,.closing-sweep{display:none}.source-images>figure:hover>img,.gradient-row figure:hover,.color-promise img{transform:none!important}}

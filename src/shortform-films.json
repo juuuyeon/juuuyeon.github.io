@@ -1,0 +1,92 @@
+[
+  {
+    "id": "s08",
+    "title": "지하철 FPV",
+    "genre": "액션",
+    "description": "지하철 통로를 가르는 대치와 추격. 좁은 공간 안에서 시선과 이동 방향을 이어갑니다.",
+    "focus": "캐릭터·무기·공간 축을 고정하고 공격, 회피, 반격의 원인과 결과를 연결했습니다.",
+    "src": "/work/shortform/s08.mp4",
+    "poster": "/work/shortform/s08.webp",
+    "duration": 30.08
+  },
+  {
+    "id": "s09",
+    "title": "마트 파쿠르",
+    "genre": "액션",
+    "description": "마트의 마지막 할인 상품을 향한 추격을 파쿠르 액션으로 풀었습니다.",
+    "focus": "인물과 소품의 위치를 유지하면서 이동 경로와 카메라 방향을 연결했습니다.",
+    "src": "/work/shortform/s09.mp4",
+    "poster": "/work/shortform/s09.webp",
+    "duration": 30.08
+  },
+  {
+    "id": "s10",
+    "title": "놓친 버스를 쫓아서",
+    "genre": "액션",
+    "description": "버스를 놓친 순간의 상상을 로봇과 함께하는 추격 장면으로 만들었습니다.",
+    "focus": "놓침 → 추격 → 재탑승의 흐름과 달리기·도약·탑승 자세의 연속성을 다뤘습니다.",
+    "src": "/work/shortform/s10.mp4",
+    "poster": "/work/shortform/s10.webp",
+    "duration": 30.08
+  },
+  {
+    "id": "s11",
+    "title": "무표정 김치 드라마",
+    "genre": "코미디",
+    "description": "김치 싸대기를 맞아도 무너지지 않는 표정. 작은 반응과 가까워지는 카메라로 감정을 쌓았습니다.",
+    "focus": "맞은 위치와 김치 자국을 유지하고, 미디엄 숏에서 눈물 클로즈업으로 감정을 확대했습니다.",
+    "src": "/work/shortform/s11.mp4",
+    "poster": "/work/shortform/s11.webp",
+    "duration": 30.08
+  },
+  {
+    "id": "s12",
+    "title": "무중력 엘리베이터",
+    "genre": "액션 코미디",
+    "description": "익숙한 엘리베이터가 무중력 격투 공간으로 바뀌는 상상입니다.",
+    "focus": "인물과 소품의 기준을 고정하고, 충돌과 반동을 다음 동작에 연결했습니다.",
+    "src": "/work/shortform/s12.mp4",
+    "poster": "/work/shortform/s12.webp",
+    "duration": 30.048
+  },
+  {
+    "id": "s13",
+    "title": "빗속의 사무라이",
+    "genre": "액션",
+    "description": "비 오는 골목에서 맞붙는 두 검객. 와이드와 근접 장면을 교차해 속도감을 만듭니다.",
+    "focus": "두 인물과 두 칼, 공격 방향과 시선을 고정하고 칼날 충돌과 빗물을 이어갔습니다.",
+    "src": "/work/shortform/s13.mp4",
+    "poster": "/work/shortform/s13.webp",
+    "duration": 23.750031
+  },
+  {
+    "id": "s15",
+    "title": "약과 공주",
+    "genre": "코미디",
+    "description": "약과를 그만 먹으라는 말이 가장 무서운 공주. 표정과 반응 타이밍으로 웃음을 만듭니다.",
+    "focus": "인물의 역할과 표정, 대사 뒤에 이어지는 리액션 타이밍을 다뤘습니다.",
+    "src": "/work/shortform/s15.mp4",
+    "poster": "/work/shortform/s15.webp",
+    "duration": 30.048
+  },
+  {
+    "id": "s16",
+    "title": "저승 빚쟁이",
+    "genre": "호러 코미디",
+    "description": "정통 호러처럼 시작한 장면을 한 문장의 채무 대사로 뒤집었습니다.",
+    "focus": "공포의 분위기를 유지하다 반전 대사와 리액션 클로즈업으로 장르를 전환했습니다.",
+    "src": "/work/shortform/s16.mp4",
+    "poster": "/work/shortform/s16.webp",
+    "duration": 30.08
+  },
+  {
+    "id": "s18",
+    "title": "조선 검객",
+    "genre": "판타지 액션",
+    "description": "한복을 입은 검객이 바위 괴물과 맞붙는 판타지 액션입니다.",
+    "focus": "인물과 무기, 공격 축, 충돌 파편의 연속성과 카메라 거리로 속도감을 다뤘습니다.",
+    "src": "/work/shortform/s18.mp4",
+    "poster": "/work/shortform/s18.webp",
+    "duration": 27.041688
+  }
+]

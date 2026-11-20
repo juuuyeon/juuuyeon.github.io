@@ -1,0 +1,39 @@
+.shortform-page{background:#fafafa;color:#171717}
+.shortform-intro{padding:76px 6.25vw 60px}
+.shortform-intro>p:first-child{font-size:16px;margin-bottom:20px;color:#666}
+.shortform-intro h1{font-size:42px;line-height:1.16;font-weight:650;letter-spacing:-.045em;margin-bottom:20px}
+.shortform-intro>p:last-child{font-size:20px;line-height:1.65}
+.shortform-stage{display:grid;grid-template-columns:minmax(0,380px) minmax(0,520px);justify-content:center;align-items:center;gap:clamp(32px,7vw,130px);padding:56px 6.25vw;background:#111;color:#fff;scroll-margin-top:16px}
+.shortform-screen{min-width:0}
+.shortform-screen video{display:block;width:100%;height:auto;aspect-ratio:9/16;max-height:720px;object-fit:contain;background:#000}
+.shortform-screen [role=alert]{font-size:14px;margin-top:12px}
+.shortform-screen [role=alert] a{text-decoration:underline}
+.shortform-caption>p:first-child{font-size:14px;color:#b3b3b3;margin-bottom:28px}
+.shortform-caption h2{font-size:42px;line-height:1.2;letter-spacing:-.04em;font-weight:650;margin-bottom:28px;word-break:keep-all}
+.shortform-synopsis{font-size:22px;line-height:1.7;word-break:keep-all}
+.shortform-focus{margin-top:38px;padding-top:26px;border-top:1px solid #454545}
+.shortform-focus h3{font-size:14px;font-weight:500;margin-bottom:12px;color:#aaa}
+.shortform-focus p{font-size:16px;line-height:1.8;color:#ddd;word-break:keep-all}
+.shortform-controls{display:flex;align-items:center;gap:24px;margin-top:40px}
+.shortform-controls button{width:48px;height:48px;border:1px solid #777;border-radius:50%;background:transparent;color:inherit;font-size:23px;cursor:pointer}
+.shortform-controls button:disabled{opacity:.3;cursor:default}
+.shortform-controls span{font-size:14px;font-variant-numeric:tabular-nums;color:#bbb}
+.shortform-library{padding:64px 6.25vw}
+.shortform-library-heading{display:flex;justify-content:space-between;gap:20px;align-items:baseline;margin-bottom:30px}
+.shortform-library-heading h2{font-size:28px;letter-spacing:-.04em;font-weight:600}
+.shortform-library-heading p{font-size:14px;color:#666}
+.shortform-filmstrip{display:flex;gap:20px;overflow-x:auto;scroll-snap-type:x proximity;padding:4px 4px 24px;scrollbar-width:thin}
+.shortform-choice{flex:0 0 176px;min-width:0;scroll-snap-align:start;border:0;background:none;padding:0;text-align:left;color:inherit;cursor:pointer}
+.shortform-poster{display:block;position:relative;aspect-ratio:9/16;overflow:hidden;background:#ddd;margin-bottom:16px}
+.shortform-poster img{width:100%;height:100%;object-fit:cover;display:block}
+.shortform-poster>span{position:absolute;right:8px;bottom:8px;background:#000b;color:white;padding:4px 7px;font-size:12px;font-variant-numeric:tabular-nums}
+.shortform-choice[aria-pressed=true] .shortform-poster{outline:3px solid #171717;outline-offset:2px}
+.shortform-choice strong{display:block;font-size:17px;line-height:1.4;font-weight:600;margin-bottom:7px}
+.shortform-choice small{font-size:13px;color:#666}
+.shortform-page button:focus-visible,.shortform-page a:focus-visible,.shortform-page video:focus-visible{outline:3px solid #888;outline-offset:5px}
+.shortform-about{padding:60px 6.25vw 100px;border-top:1px solid #ddd;display:grid;grid-template-columns:1fr 1fr;gap:7vw}
+.shortform-about h2{font-size:42px;letter-spacing:-.04em;line-height:1.3;margin-bottom:24px}
+.shortform-about p{font-size:18px;line-height:1.85;word-break:keep-all}
+.shortform-about ul{padding-left:20px;margin:24px 0;font-size:16px;line-height:2}
+.shortform-about .shortform-credit{font-size:14px;color:#666}
+@media(max-width:700px){.shortform-intro{padding:48px 6vw 36px}.shortform-intro h1{font-size:36px}.shortform-intro>p:last-child{font-size:17px}.shortform-stage{grid-template-columns:minmax(0,1fr);gap:28px;padding:24px 6vw 36px}.shortform-screen{width:100%;max-width:340px;justify-self:center}.shortform-screen video{max-height:66svh}.shortform-caption h2{font-size:32px;margin-bottom:18px}.shortform-caption>p:first-child{margin-bottom:14px}.shortform-synopsis{font-size:19px}.shortform-focus{margin-top:24px}.shortform-controls{margin-top:24px}.shortform-library{padding:40px 6vw}.shortform-library-heading h2{font-size:24px}.shortform-choice{flex-basis:145px}.shortform-about{grid-template-columns:1fr;padding:40px 6vw 64px;gap:28px}.shortform-about h2{font-size:32px}.shortform-about p{font-size:17px}.shortform-page .case-header>span{font-size:11px}}
